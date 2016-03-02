@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<meta name="description" content="Levent ÇETİN Dersler">
+<meta name="keywords" content="control, robotics">
+<meta name="author" content="Levent Çetin - levent.cetin@deu.edu.tr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	#container {
+		width: 960px;
+		background: #fff;
+		margin: 10px auto;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	#header {
+		height: 70px;
+		padding: 2px;
+		background: #fff;
+		color: #369;
+	}
+	#header p {
+		padding: 0;
+		margin: 0;
+	}
+	#nav{
+			border:1px solid #ccc;
+			border-width:1px 0;
+			list-style:none;
+			margin:0;
+			padding:0;
+			text-align:right;
+		}
+		#nav li{
+			display:inline;
+		}
+		#nav a{
+			font-size:15px;
+			display:inline-block;
+			padding:5px;
+			
+			color:#369;
+		}
+	a{
+			color:#369;
+			text-decoration:none;
+			
+
+	}
+	a:hover{
+			text-decoration:underline;
+			/*font-weight:bold;*/
+	}
+	#left_menu {
+			width: 170px;
+			float: left;
+			height: 400px;
+			background: #fff;
+			margin:0;
+			padding:0;
+			position: fixed;
+			top: 115px;
+		}
+		#left_menu h2 {
+			height: 20px;
+			font-weight:bold;
+			color:#369;;
+			text-align: left;
+			font-size:16px;
+			padding:0px;
+			border-bottom: 1px dashed #999;
+		}
+		#left_menu ul {
+			display: block;
+			background: #fff;
+			line-height: 20px;
+			margin:0;
+			padding:0;
+		}
+		#left_menu li {
+			list-style: none;
+			margin: 2px;
+			border: 1px solid gray;
+		}			
+		#left_menu a {
+			text-align: left;
+			color:#369;
+			text-decoration:none;
+			font-size: 12px;
+			padding:4px;
+		}
+	#content {
+			margin-left:180px;
+			width: 780px; 
+			font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+			font-size: 14px;
+			color:#555;
+	}
+		#content h2{
+			text-align: left;
+			margin:10px 0px;
+			font-size: 20px;
+			color:#d00;
+			text-decoration:none;
+			font-weight:normal;
+	}
+	#content table { margin: 10px; width:740px; border-collapse: collapse; }
+	#content td { padding: 2px 4px 2px 4px; border: 1px #ccc solid; }
+	#content th { padding: 2px 4px 2px 4px; border: 1px #ccc solid; }
+	#content thead { background: #fff; }
+	#content tbody { background: #fff; }
+</style>
+</head>
+<body>
+
+<div id="container">
+	<div id="header">
+		<!-- <p style="float:left;">
+			<img src="http://kisi.deu.edu.tr/levent.cetin/lvnt.png" alt="LeventCetin" height="70" />
+		</p> -->
+		<p style="float: left;">
+			<span style="font-size:32px;">Dr. Levent Çetin</span><br>
+			<span style="font-size:20px;">Yardımcı Doçent</span>
+		</p>
+		<p style="float: right;color:#777;font-size:14px;padding:0;">
+			<span>Dokuz Eylül Üniversitesi / Makine Mühendsilği Bölümü</span><br>
+			<span>t: +90 232 30-19238   @: levent.cetin-at-deu.edu.tr </span>
+		</p>
+	</div>
+	<ul id="nav">
+	
+		<li><a href="index.html">Anasayfa</a></li>
+		<li><a href="arastirma.html">Araştırma</a></li>
+		<li><a href="egitim.html"><b>Eğitim</b></a></li>
+		<li><a href="hakkimda.html">Hakkımda</a></li>
+		<li><a href="iletişim.html">İletişim</a></li>
+	
+	</ul>
+	<div id="left_menu">
+			<h2>Dersler</h2>
+				<ul>
+					<li><a href="egitim.html#elk">Electrics</a></li>
+					<li><a href="egitim.html#elo">Electronics</a></li>			
+					<li><a href="egitim.html#sma">System Modeling&Ana.</a></li>
+					<li><a href="egitim.html#cos">Control Sytems</a></li>
+					<li><a href="egitim.html#aac">Adv. Automatic Control</a></li>
+				</ul>
+			
+			<h2 style="margin-top:20px;">Seminerler</h2>
+				<ul>
+					<li><a href="ders.html#elk">Görüntü İşlemeye Giriş</a></li>
+				</ul>
+	</div>
+	
+	<div id="content">
+		<h2><a name="Electrics" id="elk"></a>EEE 2015 Electrics</h2>
+			<p>Ders Makine Mühendisliği öğrencilerine temel elektrik bilgisi vermeyi amaçlamaktadır. Ders içinde temel fiziksel kavramlar kullanılarak elektriksel sistemler tanımlnamakta ve bunların işleyişleri ve kullanım şekilleri gösterilmektedir. Ders dili İngilizcedir.</p>
+			<p>Bu sayfada verilen sunumların ders içeriğine destek amaçlıdır. Vize ve Final sınavlarında Yard. Doç. Dr. Aytaç GöREN'in websitesindeki <a href="http://kisi.deu.edu.tr/aytac.goren/courses.htm "target="_blank">ders notları</a> esas alınacaktır. Fakat kısa sınavlarda her öğrenci kendi grubunda anlatılanlardan sorumlu olacaktır. </p>
+
+				<table>
+				<thead>
+				<tr><th> - </th><th>Subject</th><th>Documents</th></tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>Hafta 01</td>
+					<td>Introduction</td>
+					<td>presentation</td>
+				</tr>
+					<tr><td>Hafta 02</td>
+					<td>Basic Concepts in Electricity</td>
+					<td><a href="https://github.com/leventcetin/MEE2015/blob/master/01-Basics.pdf">presentation</a></td>
+				</tr>
+					<tr><td>Hafta 03</td>
+					<td>Alternating Current&Voltage</td>
+					<td><a href="https://github.com/leventcetin/MEE2015/blob/master/02-AC-voltage&current.pdf">presentation</a></td>
+				</tr>
+			
+					<tr><td>Hafta 04</td>
+					<td>A.C. Circuit Analysis</td>
+					<td><a href="https://github.com/leventcetin/MEE2015/blob/master/03-AC-Analysis.pdf">presentation</a></td>
+				</tr>
+				
+					<tr><td>Hafta 05</td>
+					<td>Electromagnetism Basics</td>
+					<td><a href="https://github.com/leventcetin/MEE2015/blob/master/04-EM-Basics.pdf">presentation</a></td>
+				
+				</tr>
+					<tr><td>Hafta 06</td>
+					<td>Magnetic Circuits</td>
+					<td><a href="https://github.com/leventcetin/MEE2015/blob/master/05-EM-Circuits.pdf">presentation</a></td>
+				</tr>
+					<tr><td>Hafta 07</td>
+					<td>Midterm</td>
+					<td>-</td>
+				</tr>
+					<tr><td>Hafta 08</td>
+					<td>AC 3 Phase</td>
+					<td><a href="https://github.com/leventcetin/MEE2015/blob/master/06-AC-3phi.pdf">presentation</a></td>
+				</tr>
+				<tr><td>Hafta 09</td>
+					<td>AC Induction and Sychronous Motors</td>
+					<td><a href="https://github.com/leventcetin/MEE2015/blob/master/07-ACM-sync.pdf">presentation</a></td>
+				</tr>
+				<tr><td>Hafta 10</td>
+					<td>Starting AC Motors (Türkçe)</td>
+					<td><a href="https://github.com/leventcetin/MEE2015/blob/master/08-ACM-start.pdf">presentation</a></td>
+				</tr>
+				</tbody>
+				</table>
+<br>
+
+		<h2><a name="System Modeling&Analysis" id="sma"></a>MAK 3017 System Modeling and Analysis</h2>
+				<p>Ders Makine Mühendisliği öğrencilerine fiziksel sistemlerin matematiksel modellenmesi ve dinamik davranışlarının incelenmesini öğretmeyi amaçlamaktadır. Ders dili İngilizcedir.</p>
+				<p>Bu ders Prof.Dr. Hira Karagülle, Doç. Dr. Zeki Kıral ve Yrd. Doç. Dr. Levent Malgaca 'nı grupları ile ortak içerikte anlatılmaktadır. Burada verilen ders içeriğine destek olarak ismi geçen hocaların web sitelerindeki sunum ve uygulamalar kullanılabilir.</p>
+				<table>
+				<thead>
+				<tr><th> - </th><th>Subject</th><th>Documents</th></tr>
+				</thead>
+				<tbody>
+					<tr><td>Hafta 01</td>
+					<td>Introduction</td>
+					<td><a href="https://github.com/leventcetin/MEE3017/blob/master/01-Basics.pdf">presentation</a></td>
+				</tr>
+					<tr><td>Hafta 02</td>
+					<td>Modeling of Mechanical Systems - Free Body Diagram Method</td>
+					<td><a href="https://github.com/leventcetin/https://github.com/leventcetin/MEE3017/blob/master/blob/master/02-ms.pdf">presentation</a></td>
+				</tr>
+					<tr><td>Hafta 03</td>
+					<td>Modeling of Mechanical Systems - Lagrange Equations</td>
+					<td><a href="https://github.com/leventcetin/MEE3017/blob/master/03-ms-lagrange.pdf">presentation</a></td>
+				</tr>
+					<tr><td>Hafta 04</td>
+					<td>Modeling of Mechanical Systems via Lagrange Equations</td>
+					<td><a href="https://github.com/leventcetin/MEE3017/blob/master/04-ms-solution.pdf">presentation</a></td>
+				</tr>
+					<tr><td>Hafta 05</td>
+					<td>Modeling of Electrical Systems</td>
+					<td><a href="https://github.com/leventcetin/MEE3017/blob/master/05-es.pdf">presentation</a></td>
+				</tr>
+					<tr><td>Hafta 06</td>
+					<td>Modeling of Electrical Systems via Lagrange Equations</td>
+					<td><a href="https://github.com/leventcetin/MEE3017/blob/master/05-es-lagrange.pdf">presentation</a></td>
+				</tr>
+					<tr><td>Hafta 07</td>
+					<td>1st Midterm</td>
+					<td><a href="http://people.deu.edu.tr/hira.karagulle/m317/sa01.pps">Ex1</a>&nbsp&nbsp<a href="http://kisi.deu.edu.tr/userweb/zeki.kiral/MAK3017/m3017as1_cozumler.pdf">Ex1</a> </td>
+				</tr>
+					<tr><td>Hafta 08</td>
+					<td>Modelling of Fluid Systems</td>
+					<td><a href="https://github.com/leventcetin/MEE3017/blob/master/06-fs.pdf">presentation</a></td>
+				</tr>
+					<tr><td>Hafta 09</td>
+					<td>Modelling of Thermal Systems</td>
+					<td><a href="http://people.deu.edu.tr/hira.karagulle/m317/k06.pps">presentation</a></td>
+				</tr>
+					<tr><td>Hafta 10</td>
+					<td>Modelling of Electromechanical Systems</td>
+					<td><a href="http://people.deu.edu.tr/hira.karagulle/m317/k07.pps">presentation</a></td>
+				</tr>
+				</tbody>
+				</table>	
+	<br>
+<br>
+<br>
+<br>	
+
+	</div>
+</div>
+
+</body>
+</html>
